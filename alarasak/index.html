@@ -1,0 +1,71 @@
+<!doctype html><html lang="ar"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>دعم على راسك</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: one reading column, Arabic first then English, quiet document treatment */
+:root {
+  --bg: #FBF8F2;
+  --fg: #1E1533;
+  --muted: #5E5675;
+  --line: #E6DFD3;
+  --accent: #8A5A00;
+  --card: #FFFFFF;
+  --font-ar: 'Baloo Bhaijaan 2', 'Noto Sans Arabic', Tahoma, sans-serif;
+  --font-head: 'Lalezar', 'Baloo Bhaijaan 2', Tahoma, sans-serif;
+  --font-en: 'Baloo Bhaijaan 2', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #1A1033; --fg: #FFF7EA; --muted: #BDB2DF; --line: #33215E; --accent: #FFC531; --card: #251746; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --bg: #1A1033; --fg: #FFF7EA; --muted: #BDB2DF; --line: #33215E; --accent: #FFC531; --card: #251746; color-scheme: dark; }
+html, body { background: var(--bg); color: var(--fg); }
+body {
+  font-family: var(--font-ar);
+  font-size: 17px;
+  line-height: 1.8;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 56px;
+}
+main { max-width: 680px; margin: 0 auto; display: grid; gap: 28px; }
+header { display: grid; gap: 6px; border-bottom: 1px solid var(--line); padding-block-end: 20px; }
+.brand { font-family: var(--font-head); font-size: 44px; line-height: 1.1; color: var(--accent); margin: 0; }
+h1 { font-size: 24px; margin: 0; text-wrap: balance; }
+.meta { color: var(--muted); font-size: 15px; margin: 0; }
+section { display: grid; gap: 10px; }
+h2 { font-size: 19px; margin: 0; text-wrap: balance; }
+p, li { margin: 0; }
+ul { margin: 0; padding-inline-start: 22px; display: grid; gap: 6px; }
+.en { direction: ltr; text-align: left; font-family: var(--font-en); border-top: 1px solid var(--line); padding-block-start: 24px; }
+.en h2 { font-size: 18px; }
+.note { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; color: var(--muted); font-size: 15px; }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;600;800&family=Lalezar&display=swap">
+</head><body><main dir="rtl" lang="ar">
+  <header>
+    <p class="brand">على راسك</p>
+    <h1>الدعم والمساعدة</h1>
+    <p class="meta">لعبة تخمين جماعية للسهرات · com.alarasak.game</p>
+  </header>
+  <section>
+    <h2>إزاي نلعب؟</h2>
+    <ul>
+      <li>اختار قسم، وحط الموبايل بالعرض على جبهتك والشاشة ناحية صحابك.</li>
+      <li>صحابك يوصفوا الكلمة. ميّل لتحت لو خمّنت، ولفوق عشان تعدّي.</li>
+      <li>لو حساس الحركة مش شغال، هتظهر زراير «صح» و«باص» على الشاشة.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>الاشتراك («بلس»)</h2>
+    <p>الشراء والإلغاء بيتم عن طريق المتجر اللي نزّلت منه اللعبة. على الآيفون: الإعدادات ← اسمك ← الاشتراكات. على أندرويد: Google Play ← المدفوعات والاشتراكات. ولو غيّرت الموبايل، استخدم «استرجاع المشتريات» من شاشة «بلس».</p>
+  </section>
+  <section>
+    <h2>تواصل معانا</h2>
+    <p>لأي مشكلة أو اقتراح أو كلمات عايز تضيفها: <a href="mailto:abdallahomar229@gmail.com">abdallahomar229@gmail.com</a></p>
+    <p><a href="privacy.html">سياسة الخصوصية</a></p>
+  </section>
+  <section class="en" lang="en" dir="ltr">
+    <h2>Support (English)</h2>
+    <p>Ala Rasak is a party guessing game. Put the phone on your forehead, friends describe the word, tilt down for correct and up to pass. Subscriptions are managed in your App Store or Google Play account settings; use “Restore purchases” on the Plus screen after changing devices. Contact: <a href="mailto:abdallahomar229@gmail.com">abdallahomar229@gmail.com</a> · <a href="privacy.html">Privacy Policy</a></p>
+  </section>
+</main></body></html>
