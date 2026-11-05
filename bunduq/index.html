@@ -1,0 +1,74 @@
+<!doctype html><html lang="ar"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>دعم بندق الشقي</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+/* Layout: one reading column, Arabic first then English, quiet document treatment */
+:root {
+  --bg: #F3FAFF;
+  --fg: #2E2A3D;
+  --muted: #5F5A73;
+  --line: #D6E6F2;
+  --accent: #8A4718;
+  --card: #FFFFFF;
+  --font-ar: 'Baloo Bhaijaan 2', 'Noto Sans Arabic', Tahoma, sans-serif;
+  --font-en: 'Baloo Bhaijaan 2', system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { --bg: #14202B; --fg: #F4F8FB; --muted: #AFC0CF; --line: #263848; --accent: #FFC93C; --card: #1B2A37; color-scheme: dark; }
+}
+:root[data-theme="dark"] { --bg: #14202B; --fg: #F4F8FB; --muted: #AFC0CF; --line: #263848; --accent: #FFC93C; --card: #1B2A37; color-scheme: dark; }
+html, body { background: var(--bg); color: var(--fg); }
+body {
+  font-family: var(--font-ar);
+  font-size: 17px;
+  line-height: 1.8;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 56px;
+  margin: 0;
+}
+main { max-width: 680px; margin: 0 auto; display: grid; gap: 28px; }
+header { display: grid; gap: 6px; border-bottom: 1px solid var(--line); padding-block-end: 20px; }
+.brand { font-size: 40px; font-weight: 800; line-height: 1.1; color: var(--accent); margin: 0; }
+h1 { font-size: 24px; margin: 0; text-wrap: balance; }
+.meta { color: var(--muted); font-size: 15px; margin: 0; }
+section { display: grid; gap: 10px; }
+h2 { font-size: 19px; margin: 0; text-wrap: balance; }
+p, li { margin: 0; }
+ul { margin: 0; padding-inline-start: 22px; display: grid; gap: 6px; }
+a { color: var(--accent); }
+.en { direction: ltr; text-align: left; font-family: var(--font-en); border-top: 1px solid var(--line); padding-block-start: 24px; }
+.en h2 { font-size: 18px; }
+.note { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;600;800&display=swap">
+</head><body>
+<main dir="rtl" lang="ar">
+  <header>
+    <p class="brand">بندق الشقي</p>
+    <h1>الدعم والمساعدة</h1>
+    <p class="meta">لعبة تعليمية للأطفال من ٤ لـ٧ سنين · com.bunduq.app</p>
+  </header>
+  <section>
+    <p>بندق سنجاب شقي بيغلط كتير، والطفل هو اللي بيعلّمه الصح: النضافة، والأدب، والأمان، والصحاب، والمحافظة على الطبيعة. ٤٨ موقف في ٦ عوالم، بصوت بالعربي الفصحى البسيطة. مجانية بالكامل، من غير إعلانات ولا مشتريات ولا إنترنت.</p>
+  </section>
+  <section>
+    <h2>أسئلة سريعة</h2>
+    <ul>
+      <li><strong>إزاي أحدد وقت اللعب؟</strong> من ركن الأهل (القفل اللي فوق في الشاشة الرئيسية) ← وقت اللعب في اليوم.</li>
+      <li><strong>إزاي أبدأ من الأول؟</strong> من ركن الأهل ← ابدأ من الأول. ده بيمسح النجوم والملصقات.</li>
+      <li><strong>الصوت مش شغال؟</strong> ارفعوا صوت الموبايل واتأكدوا إن «صوت بندق» شغال في ركن الأهل.</li>
+    </ul>
+  </section>
+  <section>
+    <h2>تواصل معانا</h2>
+    <p>لأي سؤال أو مشكلة أو اقتراح ابعتولنا على <a href="mailto:abdallahomar229@gmail.com">abdallahomar229@gmail.com</a>.</p>
+    <p><a href="privacy.html">سياسة الخصوصية</a></p>
+  </section>
+  <section class="en" lang="en" dir="ltr">
+    <h2>Bunduq · Support</h2>
+    <p>An offline educational game for children aged 4–7: Bunduq the squirrel makes funny mistakes and your child teaches him what is right. Free, with no ads, no purchases and no internet needed. Parent settings (daily play time, sound, start over) are in the Parents' Corner behind the lock icon.</p>
+    <p>Questions, problems or ideas? Email <a href="mailto:abdallahomar229@gmail.com">abdallahomar229@gmail.com</a>. · <a href="privacy.html">Privacy Policy</a></p>
+  </section>
+</main>
+</body></html>
